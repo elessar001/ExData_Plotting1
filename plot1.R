@@ -10,11 +10,11 @@
 #/exdata%2Fdata%2Fhousehold_power_consumption.zip
 
 
-#Read data from File (Remember to change nrows)
+#Read data from File
 
 data1<-read.table("household_power_consumption.txt", 
                   header = T, sep = ";", na.strings = "?", 
-                  nrows = 70000, comment.char = "")
+                  nrows = 2075259, comment.char = "")
 
 #Create a temporary variable to sort by dates and 
 #get data for 01/02/2007 and 02/02/2007
